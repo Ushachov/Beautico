@@ -1,0 +1,45 @@
+.fqa {
+    padding-bottom: 160px;
+    background: $bg-silver;
+
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        gap: 30px;
+    }
+
+    &__info {
+        width: 100%;
+        max-width: 510px;
+        text-align: left;
+    }
+
+    .btn-secondary {
+        max-width: fit-content;
+        padding: 17px 33px;
+    }
+
+    .section {
+        &__title,
+        &__desc {
+            text-align: left;
+        }
+
+        &__desc {
+            margin-bottom: 38px;
+        }
+    }
+
+    &__accordion {
+        display: grid;
+        width: 100%;
+        max-width: 685px;
+        gap: 16px;
+
+        .accordion-item{
+            border-radius: 8px;
+            overflow: hidden;
+            border: none;
+        }
+    }
+}

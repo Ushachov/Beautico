@@ -1,0 +1,29 @@
+@media (max-width: $content-widthLg) {
+    .fqa {
+        &__content {
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+        }
+    
+        &__info {
+            max-width: none;
+        }
+
+        .section {
+            &__desc {
+                margin-bottom: 18px;
+            }
+        }
+    
+        &__accordion {
+            max-width: none;
+        }
+    }
+}
+
+@media (max-width: $content-widthMd) { 
+    .fqa {
+        padding-bottom: 120px;
+    }
+}

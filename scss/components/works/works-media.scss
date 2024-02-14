@@ -1,0 +1,7 @@
+@media (max-width: $content-widthLg) {
+    .works {
+        &__item {
+            max-width: 300px;
+        }
+    }
+}

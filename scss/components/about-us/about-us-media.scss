@@ -1,0 +1,9 @@
+@media (max-width: $content-widthMd) {
+    .about-us {
+        .section {
+            &__desc {
+                margin-bottom: 20px;
+            }
+        }
+    }
+}

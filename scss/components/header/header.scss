@@ -1,0 +1,60 @@
+.header {
+  padding: 14px 0;
+  .navbar {
+    padding: 0;
+
+    .collapse {
+      justify-content: space-between;
+    }
+  }
+
+  .nav {
+    &-item:not(:last-child) {
+      margin-right: 32px;
+    }
+    &-link {
+      padding: 0;
+      color: $secondary-text-color;
+
+      &:hover {
+        color: $tertiary-text-color;
+        transition: $transition;
+      }
+    }
+  }
+
+  &__logo {
+    font-size: 32px;
+    font-weight: bold;
+    color: $bg-primary;
+    text-decoration: none;
+  }
+
+  &__head {
+    padding: 14px 0;
+    background: #6244a3;
+    text-align: center;
+
+    span,
+    a {
+      font-size: 14px;
+      color: white;
+      line-height: 21px;
+    }
+
+    a {
+      text-decoration: none;
+      margin-left: 4px;
+      cursor: pointer;
+    }
+  }
+
+  .btn-cart {
+    padding: 9px 21px;
+    gap: 3px;
+  }
+
+  .btn-subscribe {
+    padding: 9px 21px;
+  }
+}

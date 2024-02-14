@@ -1,0 +1,46 @@
+.banner-section {
+    padding: 20px 0;
+    background: $bg-secondary;
+
+    &__content {
+        display: grid;
+        grid-template-columns: 1fr auto;
+        gap: 40px;
+    }
+
+    .text-content {
+        margin-top: 60px;
+
+        &__title {
+            font-size: 56px;
+            line-height: 68px;
+            margin-bottom: 28px;
+            color: $primary-text-color;
+            max-width: 470px;
+        }
+
+        &__desc {
+            font-size: 20px;
+            line-height: 30px;
+            color: $primary-text-color;
+            font-weight: 400;
+            max-width: 544px;
+            margin-bottom: 40px;
+        }
+
+        a {
+            padding: 17px 33px;
+        }
+    }
+
+    .image-content {
+        width: 100%;
+        max-width: 600px;
+        display: flex;
+        align-items: center;
+
+        img {
+            width: 100%;
+        }
+    }
+}

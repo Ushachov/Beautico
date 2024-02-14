@@ -1,0 +1,46 @@
+%btn-base {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 64px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+%btn-primary {
+    @extend %btn-base;
+    background: white;
+    color: $tertiary-text-color;
+    font-size: 16px;
+    line-height: 24px;
+    border: 1px solid #CDD5DF;
+
+    &:hover {
+        border-color: #a9b0b9;
+        transition: $transition;
+    }
+}
+
+%btn-secondary {
+    @extend %btn-base;
+    background: $bg-btn;
+    color: white;
+    font-size: 16px;
+    line-height: 24px;
+
+    &:hover {
+        background: $bg-btn-hover;
+        transition: $transition;
+    }
+}
+
+%btn-link {
+    @extend %btn-base;
+    color: $black-text-color;
+
+    &::after {
+      content: "\276F";
+      display: inline-block;
+      margin-left: 5px;
+    }
+}

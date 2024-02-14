@@ -1,0 +1,22 @@
+.about-us {
+    &.section {
+        padding-top: 160px;
+    }
+
+    .section {
+        &__desc {
+            max-width: 740px;
+            margin: 0 auto 40px;
+        }
+    }
+
+    .buttons__container {
+        gap: 14px;
+        justify-content: center;
+        
+        a:nth-child(1) {
+            padding: 17px 33px;
+        }
+    }
+
+}

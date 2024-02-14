@@ -1,0 +1,45 @@
+@media (max-width: $content-widthLg) {
+    .sellers {
+        &__categories {
+            gap: 20px;
+        }
+
+        .category {
+            &__head {
+                padding: 32px 14px;
+            }
+    
+            &__title {
+                font-size: 28px;
+                line-height: 32px;
+                margin-bottom: 20px;
+            }
+    
+            &__desc {
+                font-size: 14px;
+                line-height: 24px;
+                margin-bottom: 28px;
+            }
+        }
+    }
+}
+
+@media (max-width: $content-widthMd) {
+    .sellers {
+        .section__title {
+            margin: 0 auto 40px;
+        }
+    
+        &__items {
+            flex-direction: column;
+        }
+
+        .item {
+            margin: 0 auto;
+        }
+
+        &__categories {
+            grid-template-columns: 1fr;
+        }
+    }
+}
